@@ -39,6 +39,7 @@ This Project is an Team Event Project organized by [Code Institute](https://www.
     - [**INDEX.HTML**](#indexhtml)
     - [**GAME.HTML**](#gamehtml)
   - [**Construction Table**](#construction-table)
+- [**Development Lifecycle and Task Allocation**](#development-lifecycle-and-task-allocation)
 - [**Project Management**](#project-management)
 - [**Version Control**](#version-control)
     - [**Gitpod Workspaces**](#gitpod-workspaces)
@@ -286,33 +287,52 @@ paint. net was used to create the wireframes during the design process.
 ​[Back to contents](#contents)
 
 ---
+## **Development Lifecycle and Task Allocation** ##
+
+- The Team is made up of all experience levels from those who have only just started the course, right up to Alumni.
+  - Our first task was to figure out at which level everyone is and how much time each of us has.
+- Our team is Suzy, Tobi, Laith, Nicola, Simon and Marina
+- We split all the tasks between us based on our individual experience levels:
+  - Suzy came up with this great quiz idea and wrote all the questions.
+    - She created a huge part of the README including the User Stories
+    - She also worked really well with Nicola, Tobi and Laith on the coding.
+  - Marina worked on the website layout ideas
+    - She created the wireframe, the design and game styling and took care of finding all the content images.
+  - Simon helped us to get it set our team project on GitHub.
+    - He provided us with everything what we need for our dashboard
+    - Explained how to work with Forked repositories, and helped us patiently when we had trouble with fetching and merging branches as well as other queries and troubles.
+      - We would be lost without him, or at least we wouldn't have made it so fast!
+  - Tobi was behind creating the interactive game functionality in JavaScript and managed to solve the JSON file import (which was just awesome).
+  - Laith and Nicola worked on creating the main website and supported Tobi with the JavaScript; linking it all together.
+    - A big thank you to Nicola who hosted the master branch on his GitHub account and had all the work to do with the pull requests and merging as well as having to fix all the inevitable merge conflicts.
+  - Simon and Nicola did all the unit testing and bug reporting.
+- We had a fantastic team spirit and wish you could all see the slack channel conversations and collaboration!
+  - We kept each other permanently up to date.
+  - Helped each other where we could and what each was able to help with.
+  - Every single one of us gave 100% and more to make sure that this website will be: 
+    - Easy to understand and simple to use.
+    - A lot of fun to play.
+
+
+[Back to contents](#contents)
+
+---
 ## **Project Management** ##
 ​
-GitHub [Projects](project GitHub repo URL/projects) are used to organize the planning and development of the website.
+GitHub [Projects](https://github.com/NicolaLampis/hackathon_ci/projects/) are used to organize the planning and development of the website.
 Three GitHub projects are used to manage different aspects of the site development:
-- [Development](project GitHub repo URL/projects/1)
-  - Manages general project tasks and files including Documentation, HTML & CSS
-- [Bug Fixes](project GitHub repo URL/projects)
-  - Manages the triage and prioritization of the bug fixes.
+- [Steal the gold](https://github.com/NicolaLampis/hackathon_ci/projects/1)
+  - Manages all project tasks and files including Documentation, HTML, CSS & JavaScript.
 ​
 The Projects are created using the following GitHub templates:
-- `Automated kanban` template for the **Development** and **Development - JavaScript** projects 
-- `Bug Triage` template for the **Bug Fixes** project.
+- `Automated kanban` template for the **Steal the gold** project
 ​
 The following kanban project cards are used to manage the tasks:
-- **Backlog** - this card is used to capture ideas for project tasks.
-- **To Do** - this is the current work queue for the project.
-- **In Progress** - this is the list of tasks currently in work.
+- **Start** - this card is used to capture ideas for project tasks.
     - New issues and pull requests are automatically added to this column using project card automation options.
-- **Testing** - Testing tasks list
-- **Done** - completed tasks
+- **In Work** - this is the list of tasks currently in work.
+- **Finished Tasks** - completed tasks
 ​
-The following Bug Triage template project cards are used to manage the Bux fixes tasks:
-- **Needs Triage** - this card is used to capture new bugs prior to assigning a priority.
-  - A triage card is more appropriate for larger projects than this but left in as this is where all new issues are assigned when linking a project to a new issue.
-- **High Priority** - this is the high priority queue for the project.
-- **Low Priority** - this is the low priority queue for the project.
-- **Closed** - completed tasks.
 ​
 Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 ​
