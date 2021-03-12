@@ -15,9 +15,13 @@
   - [**Table of Contents**](#table-of-contents)
   - [**Automated Testing**](#automated-testing)
     - [**Validation Services**](#validation-services)
+    - [**HTML validation**](#html-validation)
+      - [**index.html**](#indexhtml)
+      - [**game.html**](#gamehtml)
+    - [**CSS validation** ###](#css-validation-)
+      - [**style.css**](#stylecss)
   - [**Manual Testing**](#manual-testing)
     - [**Unit Testing**](#unit-testing)
-    - [**User Acceptance Testing (UAT)**](#user-acceptance-testing-uat)
     - [**Peer Code Review**](#peer-code-review)
     - [**Testing undertaken on desktop**](#testing-undertaken-on-desktop)
     - [**Testing undertaken on tablet and phone devices**](#testing-undertaken-on-tablet-and-phone-devices)
@@ -55,6 +59,21 @@ The following **validation services** and **linters** were used to check the val
             Add a media description provide a brief summary of a web page and help the search engine.
         - Best Practice 100%
 
+
+### **HTML validation** ###
+
+#### **index.html** ###
+
+- ![validation/screenshot/HTML/index](/validation/index_html.png)
+#### **game.html** ###
+
+- ![validation/screenshot/HTML/game](/validation/game_html.png)
+
+### **CSS validation** ### 
+#### **style.css** ###
+- ![validation/screenshot/CSS](/validation/style_css.png)
+
+
   - **Desktop Performance Report**
     
     [Google Lighthouse - First Report Desktop](assets/images/screenshots/s-one.png)
@@ -80,7 +99,7 @@ The following **validation services** and **linters** were used to check the val
 ## **Manual Testing** ##
 
 ### **Unit Testing** ###
-[Unit Testing document](testing/unit-test-plan.pdf) containing:
+[Unit Testing document](testing/game-unit-test-plan.pdf) containing:
 - Unit Test scope,
 - The test cases,
 - The pass / fail record for each test case.
@@ -133,16 +152,7 @@ The issue log is managed on the [GitHub Project Issues section](https://github.c
 
 #### **Known Bugs** ####
 
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
-
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
 
 #### **Unsolved Issues** ####
 
-[Issue #xx:](<issue-URL>)
-- **Bug Report Title**
-  - .
+
